@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>practica css</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0); 
+        }
+        .Base {
+            width: 30%; height:500px; 
+            display: inline-block;
+            margin-left: -3px;
+        }
+        #Verde{
+            background-color: rgb(6, 104, 6); 
+        }
+        #Blanco{
+            background-color: rgb(255, 255, 255); 
+        }
+        #Rojo{
+            background-color: rgb(241, 12, 12); 
+        }
+        [for]{
+            width:60%;
+            height:50%;
+            float: left;
+            margin-top: 110px;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="Base" id = "Verde"> </div>
+        <div class="Base" id = "Blanco"> 
+            <img src="Aguila.Png" alt="Foto de Aguila" for = "Imagen">
+        </div>
+        <div class="Base" id = "Rojo"> </div>
+    </body>
+</html>

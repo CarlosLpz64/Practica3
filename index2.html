@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>practica css</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0); 
+        }
+        .Base > *{
+            height:500px; 
+            display: inline-block;
+            margin-left: -3px;
+            z-index: 2;
+        }
+        #Verde{
+            background-color: rgb(6, 104, 6);
+            width: 35%;
+            float: left;
+        }
+        div > #Rojo{
+            position: absolute;
+            background-color: rgb(241, 12, 12); 
+            width: 100%; 
+            z-index: 1;
+        }
+        .Imagen > img{
+            position: absolute;
+	        left: 20.8%;
+	        top: 10%;
+	        z-index: 3;
+            width:28%;
+            height:42%;
+        }
+    </style>
+</head>
+    <body>
+        <div class="Base">
+            <div id = "Verde"> </div>
+            <div id = "Rojo"> </div>
+        </div>
+        <div  class="Imagen">
+            <img src="PortugalSello.png" alt="Sello Portugal" for = "Imagen">
+        </div>
+    </body>
+</html>
